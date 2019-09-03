@@ -1,0 +1,165 @@
+@media (max-width: 450px) {
+  li a{
+    float: right;
+    margin: 8px ;
+  }
+  footer p{
+    font-size: 20px ;
+  }
+  .place-hold{
+    font-size: 20px ;
+  }
+  .mid-section p{
+    font-size: 25px ;
+  }
+  img{
+    padding-left: 10px ;
+    margin-top: 20px;
+    width: 95%;
+  }
+  .time {
+     font-size: 30px;
+  }
+  .container{
+    font-size: 30px ;
+  }
+  .message {
+    font-size: 30px;
+  }
+  .Final-stat{
+    font-size: 20px ;
+  }
+
+  .word {
+    font-size: 25px ;
+    box-align: center ;
+    font-family: 'Anton', sans-serif;
+    perspective: 1000px; 
+    perspective-origin: 200px 40px;
+  }
+}
+
+@media (min-width:768px) {
+  li a{
+    float: right;
+    display: inline;
+    margin: 8px;
+  }
+  .Bard{
+    display: none;
+  }
+  .place-hold{
+    font-size: 40px ;
+  }
+  img{
+   display: block;
+   padding-left: 80px ;
+   width: 90% ; 
+   margin-top: 40px;
+  }
+  .mid-section p{
+    font-size: 60px ;
+  }
+  .time {
+     font-size: 70px;
+  }
+  .message {
+    font-size: 40px;
+  }
+  .Final-stat{
+    font-size: 30px ;
+  }
+  .container{
+      font-size: 80px ;
+  }
+  .class_animation {  
+    font-family: 'Hepta Slab', serif;
+    font-size: 10vh;
+    color: white;
+  }
+  .word {
+    font-size: 85px ;
+    box-align: center ;
+    padding-top: 50px;
+    font-family: 'Anton', sans-serif;
+    perspective: 1000px; 
+    perspective-origin: 200px 40px;
+  }
+}
+
+body {
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  margin: 8;
+  -webkit-animation: bgcolor 10s infinite;
+  animation: bgcolor 10s infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
+
+
+ul {
+  list-style-type:none;
+  margin: 0;
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+#demo{
+  font-family: 'Kaushan Script', cursive;
+}
+
+h1{
+  color: #ffffff ;
+  width: 90%;
+}
+
+#Home {
+  border: solid 2.2px #000000;  
+  padding: 15px ;
+  line-height: 80%;
+}
+
+#Home:hover {
+  color: #000000 ;
+  background-color: #ffffff ;
+}
+
+#Heart{
+  border: solid 2.2px #000000;  
+  padding: 15px ;
+  line-height: 80% ;
+}
+
+#Heart:hover {
+  color: #000000 ;
+  background-color: #ffffff ;
+}
+
+
+
+@keyframes bgcolor {
+  0% {
+      background-color: #45a3e5
+  }
+
+  25% {
+      background-color: #C0392B
+  }
+
+  50% {
+      background-color: #A2B5CD
+  }
+
+  75% {
+      background-color: #B0E0E6
+  }
+
+  100% {
+      background-color: #8B8B00
+  }
+}
